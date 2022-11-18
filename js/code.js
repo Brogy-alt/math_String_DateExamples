@@ -25,10 +25,10 @@ let number = 23.4;
 // console.log(Math.sign(negNumb));
 
 // pow(x, y)
-console.log(Math.pow(3, 2));
+// console.log(Math.pow(3, 2));
 
 // Math.sqrt(x)
-// console.log(Math.sqrt(9));
+console.log(Math.sqrt(9));
 
 // Math.abs(): Return the absolute value of the argument
 // console.log(Math.abs(-30));
@@ -62,17 +62,35 @@ trimStart()
 valueOf() : Return a primitive value of a string or object
 */
 let sentence = "I love programming";
-let index = 3;
-console.log(`charAt(${index}): ${sentence.charAt(index)}`);
-console.log(`concat(): ${sentence.concat(' and database.')}`);
-console.log(`endsWith(): ${sentence.endsWith(' and database.')}`);
-console.log(`includes(): ${sentence.includes('love')}`);
+
+// console.log(sentence[0]);
+// let index = 3;
+// shows only fist letter or whatever about u put in
+// console.log(`charAt(${index}): ${sentence.charAt(index)}`); 
+
+// adds strings together
+// console.log(`concat(): ${sentence.concat(' and database.')}`);
+
+// see if it ends with a string
+// console.log(`endsWith(): ${sentence.endsWith(' and database.')}`);
+
+// see if it includes a string
+// console.log(`includes(): ${sentence.includes('love')}`);
+
 // indexOf(what to search for, optional : where to start from)
-console.log(`indexOf(): ${sentence.indexOf('g')}`);
-console.log(`lastIndexOf(): ${sentence.lastIndexOf('o')}`);
-// console.log(`(): ${sentence.concat(' and database.')}`);
-// console.log(`(): ${sentence.concat(' and database.')}`);
-// console.log(`(): ${sentence.concat(' and database.')}`);
+// console.log(`indexOf(): ${sentence.indexOf('g')}`);
+
+// indexOf(what to search for, optional : where it ends )
+// console.log(`lastIndexOf(): ${sentence.lastIndexOf('o')}`);
+
+// checks length of property
+// console.log(`property:length(): ${sentence.length}`);
+
+// takes words from the selected sentence and displays it
+// console.log(`match() ${sentence.match('ove')}`);
+
+console.log(`repeat(): ${sentence.repeat}`);
+
 // console.log(`(): ${sentence.concat(' and database.')}`);
 // console.log(`(): ${sentence.concat(' and database.')}`);
 // console.log(`(): ${sentence.concat(' and database.')}`);
